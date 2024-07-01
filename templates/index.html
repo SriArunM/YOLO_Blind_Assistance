@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object Detection</title>
+    <style>
+      .center_title,.video_container{
+        display: flex;
+        justify-content: center
+      }
+    </style>
+  </head>
+  <body style="background-color:rgb(140, 117, 185);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <h1 class="center_title">BLIND ASSISTIVE OBJECT DETECTION</h1>
+          <div class="video_container">
+            <img src="{{ url_for('video_feed') }}" width="60%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!--
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Live Streaming</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <h3 class="center title">Live Streaming</h3>
+          <div class="video-container">
+            <img src="{{ url_for('video_feed') }}" width="50%">
+          </div>
+          <div class="controls-container">
+            <button id="play-pause-btn">Play</button>
+            <input id="volume-range" type="range" min="0" max="1" step="0.1" value="0.5">
+            <span id="volume-icon">&#128266;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+-->
