@@ -34,5 +34,5 @@ Run the main script:
 python yolov8.py #Uses yolov8 model
 python app.py    #uses yolov4 model
 ```
-
+## Output
 ![Screenshot 2023-05-07 221757](https://github.com/SriArunM/YOLO_Blind_Assistance/assets/113443056/86657612-193a-4b74-a8f1-84511b920d22)
